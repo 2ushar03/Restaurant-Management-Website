@@ -1,0 +1,15 @@
+.paybtn{
+    border: none;
+    border-radius: 5px;
+    float: right;
+    background-color: rgb(25, 0, 255);
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+.paybtn:active{
+    transform: translateY(2px);
+    background-color: green;
+}

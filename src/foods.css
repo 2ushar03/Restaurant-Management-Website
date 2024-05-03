@@ -1,0 +1,64 @@
+.foodstore {
+    width: 100%;
+    max-width: 1275px;
+    height: auto;
+    position: relative;
+    background-color: rgb(232, 223, 223);
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 65px;
+    margin-bottom: 35px;
+    margin-left:30px;
+    margin-right: 50px;
+    width: 303px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    border: solid black;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 10%;
+    max-width: 100%;
+}
+
+.prodimage {
+    width: 100%;
+    max-width: 303px;
+    min-height: 289px;
+    display: block;
+    object-fit: cover;
+}
+
+.addbtn {
+    font-size: 2rem;
+    background-color: rgb(13, 19, 19);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.addbtn:hover {
+    background-color: red;
+}
+
+.addbtn:active {
+    transform: translateY(2px);
+}
+
+.title {
+    margin-top: 10px;
+}
