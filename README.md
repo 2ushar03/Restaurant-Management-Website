@@ -1,6 +1,7 @@
-Restaurant Management Website
+FoodX_Food_Ordering_Website
 
 This repository contains the source code for a Restaurant Management Website built using Node.js, Express, MongoDB for the backend, and React.js for the frontend.
+It is a responsive website allows users to view it on any device.
 
 Functionality:
 1) Validation: Validates user input to ensure data integrity and accuracy throughout the application.
@@ -10,11 +11,12 @@ Functionality:
 5) Add To Cart: Users can add items to their shopping carts for easy access and purchasing.
 6) Storing Items: Utilizes MongoDB to store and manage restaurant items, orders, and user data efficiently.
 7) Payment: Secure payment processing functionality is integrated to facilitate seamless transactions.
+8)Order Fulfillment:When the order is ready for delivery, the system retrieves the user's specified delivery address from the database.This address serves as the destination for the delivery.
 
 Technologies Used:
   Backend:
     Node.js
-    Express
+    Express.js
     MongoDB
   Frontend:
     React.js
